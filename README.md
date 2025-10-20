@@ -13,7 +13,7 @@
 
 <p align="center">
   <a href="https://twitter.com/yourusername">
-    <img src="https://img.shields.io/twitter/follow/yourusername?style=social" alt="Twitter">
+    <img src="https://img.shields.io/twitter/follow/M Rossy F.y ?style=social" alt="Twitter">
   </a>
   <a href="https://linkedin.com/in/M Rossy F.y ">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" alt="LinkedIn">
