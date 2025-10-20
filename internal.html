@@ -1,1 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internal CSS - Modified</title>
+    <style>
+        /* Universal Selector */
+        body, h1, p {
+            font-family: Arial, Helvetica, sans-serif;
+        }
 
+        /* Class Selector */
+        .class-one p {
+            color: red;
+            text-align: center;
+        }
+
+        .class-two {
+            color: red;
+            text-align: center;
+        }
+
+        .class-three p {
+            color: red;
+            text-align: right;
+        }
+
+        /* ID Selector */
+        #unique-text {
+            color: red;
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <!-- Class Selector -->
+    <section>
+        <h1>Selector Element :</h1>
+        <div class="class-one">
+            <p>Every paragraph will be affected by the style.</p>
+            <p id="p1">Me too!</p>
+            <p>And me!</p>
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <h1>Selector Class :</h1>
+        <div class="class-two">
+            <h2>Red and center-aligned heading</h2>
+            <p>Red and center-aligned paragraph.</p>
+        </div>
+    </section>
+    <hr>
+
+    <section>
+        <h1>Selector Class Example 2 :</h1>
+        <div class="class-three">
+            <h2>This heading will not be affected</h2>
+            <p>This paragraph will not be affected either.</p>
+        </div>
+    </section>
+    <hr>
+
+    <!-- ID Selector -->
+    <section>
+        <h1>Selector ID :</h1>
+        <div>
+            <p id="unique-text">Hello World!</p>
+            <p>This paragraph is not affected by the style.</p>
+        </div>
+    </section>
+</body>
+</html>
