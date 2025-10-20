@@ -15,10 +15,10 @@
   <a href="https://twitter.com/yourusername">
     <img src="https://img.shields.io/twitter/follow/yourusername?style=social" alt="Twitter">
   </a>
-  <a href="https://linkedin.com/in/yourusername">
+  <a href="https://linkedin.com/in/M Rossy F.y ">
     <img src="https://img.shields.io/badge/LinkedIn-blue?logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
-  <a href="https://instagram.com/yourusername">
+  <a href="https://instagram.com/virtwiinz">
     <img src="https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white" alt="Instagram">
   </a>
   <a href="mailto:youremail@gmail.com">
