@@ -4,64 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
     <style>
-        h1 {
-            color: red;
-            border: 15px solid blue;
+        nav ul {
+            list-style: none;            /* hilangkan titik list */
+            padding: 0;
+            margin: 0;
+            background-color: #333;
+            overflow: hidden;
         }
 
-        body {
-            text-align: center;
+        nav ul li {
+            float: left;                 /* sejajarkan ke samping */
         }
 
-        pre {
-            .garis-love {
-                text-align: left;
-                font-size: 24px;
-                letter-spacing: 10px; /* jarak antar love */
-                color: red;
-            }
-
-            .garis-love::before {
-                content: "❤️❤️❤️❤️❤️❤️❤️❤️❤️";
-            }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 14px 20px;
         }
 
-        .border-love {
-            border: 10px solid transparent;
-            padding: 20px;
-            border-image: repeating-linear-gradient(
-                90deg,
-                red 0 10px,
-                transparent 10px 20px
-            ) 10;
-            text-align: center;
-            font-size: 18px;
-            position: relative;
-        }
-
-        .border-love::before {
-            content: "❤️ 💞 💋 💓 💘 💝 💖 💗 💕 💌 ❤️";
-            position: absolute;
-            top: -20px;
-            left: 0;
-            right: 0;
-            text-align: center;
-            font-size: 18px;
-        }
-
-        .border-love::after {
-            content: "❤️ 💞 💋 💓 💘 💝 💖 💗 💕 💌 ❤️";
-            position: absolute;
-            bottom: -20px;
-            left: 0;
-            right: 0;
-            text-align: center;
-            font-size: 18px;
+        nav ul li a:hover {
+            background-color: #555;      /* warna saat kursor di atas menu */
         }
     </style>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Beranda</a></li>
+            <li><a href="Profil.html">profil</a></li>
+            <li><a href="galeri.html">galeri</a></li>
+            <li><a href="about.html">about</a></li>
+        </ul>
+    </nav>
+
     <h1>
         selamat datang
     </h1>
@@ -74,6 +52,39 @@
             earum iste eveniet quam facere magnam!
         </div>
     </pre>
+
+    <table>
+        <tr>
+            <td>Nama Lengkap :</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td>Kevin Permana</td>
+        </tr>
+
+        <tr>
+            <td>Kelas :</td>
+            <td>XI RPL</td>
+        </tr>
+    </table>
+
+    <h3>
+        daftar siswa kelas XI RPL
+    </h3>
+    <ul>
+        <li>kahfi</li>
+        <li>fahri</li>
+        <li>nopal</li>
+    </ul>
+
+    <h3>
+        Daftar siswa kelas XII RPL
+    </h3>
+    <ol>
+        <li>ucup</li>
+        <li>mamat</li>
+        <li>denis</li>
+    </ol>
 
     Cinta di sekelilingku ❤️
 </body>
