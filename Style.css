@@ -1,39 +1,54 @@
-/* Global Style */
-html, body {
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
-    padding: 0;
+h1 {
+    color: red;
+    border: 15px solid blue;
 }
 
-/* Bagian 1 */
-.section-one {
-    background: lightblue;
-}
-
-.section-one h2 {
-    color: navy;
-    padding-left: 20px;
-}
-
-/* Bagian 2 */
-.section-two h2 {
+body {
     text-align: center;
 }
 
-.section-two .time {
-    display: block;
-    text-align: right;
+pre {
+    .garis-love {
+        text-align: left;
+        font-size: 24px;
+        letter-spacing: 10px; /* jarak antar love */
+        color: red;
+    }
+
+    .garis-love::before {
+        content: "❤️❤️❤️❤️❤️❤️❤️❤️❤️";
+    }
 }
 
-.section-two .content {
-    text-align: justify;
+.border-love {
+    border: 10px solid transparent;
+    padding: 20px;
+    border-image: repeating-linear-gradient(
+        90deg,
+        red 0 10px,
+        transparent 10px 20px
+    ) 10;
+    text-align: center;
+    font-size: 18px;
+    position: relative;
 }
 
-/* Bagian 3 */
-.section-three .font-serif {
-    font-family: "Times New Roman", Times, serif;
+.border-love::before {
+    content: "❤️ 💞 💋 💓 💘 💝 💖 💗 💕 💌 ❤️";
+    position: absolute;
+    top: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
 }
 
-.section-three .font-sans {
-    font-family: Arial, Helvetica, sans-serif;
+.border-love::after {
+    content: "❤️ 💞 💋 💓 💘 💝 💖 💗 💕 💌 ❤️";
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 18px;
 }
